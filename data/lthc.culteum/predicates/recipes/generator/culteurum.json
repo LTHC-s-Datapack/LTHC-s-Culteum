@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:dropper"
+        ],
+        "nbt": "{Items:[{Slot:0b,id:\"minecraft:copper_block\",Count:1b},{Slot:1b,id:\"minecraft:copper_block\",Count:1b},{Slot:2b,id:\"minecraft:copper_block\",Count:1b},{Slot:3b,id:\"minecraft:copper_block\",Count:1b},{Slot:4b,id:\"minecraft:barrel\",Count:1b,tag:{CustomModelData:2012001,BlockEntityTag:{Lock:\"SE_Placed\"},SE_FurnaceGenerator:1s,HideFlags:127,display:{Lore:['[{\"text\":\"[Generate : 10 kW]\",\"italic\":false,\"color\":\"gray\"}]','[{\"text\":\"[Energy Buffer : 800 kJ]\",\"italic\":false,\"color\":\"gray\"}]'],Name:'[{\"text\":\"Furnace Generator\",\"italic\":false,\"color\":\"white\"}]'}}},{Slot:5b,id:\"minecraft:copper_block\",Count:1b},{Slot:6b,id:\"minecraft:copper_block\",Count:1b},{Slot:7b,id:\"minecraft:copper_block\",Count:1b},{Slot:8b,id:\"minecraft:copper_block\",Count:1b}]}"
+      }
+    }
+  }
+  
