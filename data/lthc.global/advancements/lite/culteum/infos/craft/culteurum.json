@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "title": "Culteurum",
+        "description": {
+            "text": "In LTHC Table \n ",
+            "extra": [
+                {
+                    "text": "A A A \n "
+                },
+                {
+                    "text": "A B A \n "
+                },
+                {
+                    "text": "A A A \n "
+                },
+                {
+                    "text": "A: 1 Copper Block, B: 1 furnace generator \n"
+                },
+                {
+                    "text": "This is a generator which used coal and charcoal"
+                }
+            ]
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "lthc.global:lite/culteum/infos/info_main",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

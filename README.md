@@ -1,7 +1,7 @@
 Requires:
 
-- !["EnergyFlux API" by Stoupy51](https://github.com/Stoupy51/EnergyFlux-API)
+- <a href="https://github.com/Stoupy51/EnergyFlux-API">"EnergyFlux API" by Stoupy51</a>
 
-- !["SimplEnergy" by Stoupy51](https://github.com/Stoupy51/SimplEnergy)
+- <a href="https://github.com/Stoupy51/SimplEnergy">"SimplEnergy" by Stoupy51</a>
 
-- !["LTHC.Utils" by LTHC-s-Datapack](https://github.com/LTHC-s-Datapack/LTHC.Utils)
+- <a href="https://github.com/LTHC-s-Datapack/LTHC.Utils">"LTHC.Utils" by LTHC-s-Datapack</a>

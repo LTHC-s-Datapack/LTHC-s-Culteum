@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "title": "Electric Saw",
+        "description": {
+            "text": "In LTHC Table \n ",
+            "extra": [
+                {
+                    "text": "A A A \n "
+                },
+                {
+                    "text": "A B A \n "
+                },
+                {
+                    "text": "A A A \n "
+                },
+                {
+                    "text": "A: 1 redstone torch, B: 1 iron axe \n"
+                },
+                {
+                    "text": "This is an automatic planks crafter which requires energy"
+                }
+            ]
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "lthc.global:lite/culteum/infos/info_main",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
