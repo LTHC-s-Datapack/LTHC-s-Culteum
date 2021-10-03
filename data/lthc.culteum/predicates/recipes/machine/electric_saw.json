@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:dropper"
+        ],
+        "nbt": "{Items:[{Slot:0b,id:\"minecraft:redstone_torch\",Count:1b},{Slot:1b,id:\"minecraft:redstone_torch\",Count:1b},{Slot:2b,id:\"minecraft:redstone_torch\",Count:1b},{Slot:3b,id:\"minecraft:redstone_torch\",Count:1b},{Slot:4b,id:\"minecraft:iron_axe\",Count:1b},{Slot:5b,id:\"minecraft:redstone_torch\",Count:1b},{Slot:6b,id:\"minecraft:redstone_torch\",Count:1b},{Slot:7b,id:\"minecraft:redstone_torch\",Count:1b},{Slot:8b,id:\"minecraft:redstone_torch\",Count:1b}]}"
+      }
+    }
+  }
+  
