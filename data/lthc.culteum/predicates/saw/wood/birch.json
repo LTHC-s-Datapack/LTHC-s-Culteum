@@ -1,141 +1,56 @@
-{
-    "condition": "alternative",
-    "terms": [
-        {
-            "condition": "inverted",
-            "term": {
-                "condition": "minecraft:alternative",
-                "terms": [
-                    {
-                        "condition": "inverted",
-                        "term": {
-                            "condition": "minecraft:location_check",
-                            "predicate": {
-                                "block": {
-                                    "blocks": [
-                                        "minecraft:hopper"
-                                    ],
-                                    "nbt": "{Items:[{Slot:0b,id:\"minecraft:birch_log\"}]}"
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:1b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:2b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:3b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:4b}]}"}}
+[
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:hopper"
+                        ],
+                        "nbt": "{Items:[{Slot:0b,id:\"minecraft:birch_log\"}]}"
                     }
-                ]
-            }
-        },
-        {
-            "condition": "inverted",
-            "term": {
-                "condition": "minecraft:alternative",
-                "terms": [
-                    {
-                        "condition": "inverted",
-                        "term": {
-                            "condition": "minecraft:location_check",
-                            "predicate": {
-                                "block": {
-                                    "blocks": [
-                                        "minecraft:hopper"
-                                    ],
-                                    "nbt": "{Items:[{Slot:0b,id:\"minecraft:birch_wood\"}]}"
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:1b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:2b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:3b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:4b}]}"}}
+                }
+            },
+
+            {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:hopper"
+                        ],
+                        "nbt": "{Items:[{Slot:0b,id:\"minecraft:birch_wood\"}]}"
                     }
-                ]
-            }
-        },
-        {
-            "condition": "inverted",
-            "term": {
-                "condition": "minecraft:alternative",
-                "terms": [
-                    {
-                        "condition": "inverted",
-                        "term": {
-                            "condition": "minecraft:location_check",
-                            "predicate": {
-                                "block": {
-                                    "blocks": [
-                                        "minecraft:hopper"
-                                    ],
-                                    "nbt": "{Items:[{Slot:0b,id:\"minecraft:stripped_birch_log\"}]}"
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:1b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:2b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:3b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:4b}]}"}}
+                }
+            },
+
+            {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:hopper"
+                        ],
+                        "nbt": "{Items:[{Slot:0b,id:\"minecraft:stripped_birch_log\"}]}"
                     }
-                ]
-            }
-        },
-        {
-            "condition": "inverted",
-            "term": {
-                "condition": "minecraft:alternative",
-                "terms": [
-                    {
-                        "condition": "inverted",
-                        "term": {
-                            "condition": "minecraft:location_check",
-                            "predicate": {
-                                "block": {
-                                    "blocks": [
-                                        "minecraft:hopper"
-                                    ],
-                                    "nbt": "{Items:[{Slot:0b,id:\"minecraft:stripped_birch_wood\"}]}"
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:1b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:2b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:3b}]}"}}
-                    },
-                    {
-                        "condition": "minecraft:location_check", "predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:4b}]}"}}
+                }
+            },
+
+            {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:hopper"
+                        ],
+                        "nbt": "{Items:[{Slot:0b,id:\"minecraft:stripped_birch_wood\"}]}"
                     }
-                ]
+                }
             }
-        }
-    ]
-}
+        ]
+    },
+
+    {"condition": "inverted", "term": {"condition": "minecraft:location_check","predicate": {"block": {"blocks": ["minecraft:hopper"], "nbt": "{Items:[{Slot:1b},{Slot:2b},{Slot:3b},{Slot:4b}]}"}}}}
+]
